@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#07111f">
+    <meta name="description" content="Build practical cybersecurity skills with beginner-friendly learning paths, hands-on labs, and guided lessons at CyberShield Academy.">
+    <title>CyberShield Academy | Learn Cybersecurity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="CyberShield Academy home">
+            <span class="brand-mark" aria-hidden="true">⌑</span>
+            <span>CyberShield <strong>Academy</strong></span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primaryNav">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="main-nav" id="primaryNav" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#courses">Learning paths</a>
+            <a href="#about">About</a>
+            <a href="#faq">FAQ</a>
+            <a class="nav-cta" href="auth.html">Sign in <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section-wrap" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> YOUR SECURITY JOURNEY STARTS HERE</p>
+                <h1>Build skills.<br><span>Defend what's next.</span></h1>
+                <p class="hero-description">A clear path into cybersecurity, from your first network concept to practical, ethical security skills.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#courses">Explore learning paths <span aria-hidden="true">→</span></a>
+                    <a class="button button-quiet" href="#about">How it works <span aria-hidden="true">↓</span></a>
+                </div>
+                <div class="hero-proof">
+                    <div class="proof-avatars" aria-hidden="true"><span>J</span><span>A</span><span>M</span></div>
+                    <p><strong>Start at your own pace</strong><br><span>Short lessons. Practical thinking.</span></p>
+                </div>
+            </div>
+            <div class="hero-visual" aria-label="Cybersecurity learning dashboard illustration">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="shield-illustration">
+                    <div class="shield-inner"><span class="shield-symbol">✓</span></div>
+                </div>
+                <div class="floating-card card-threat"><span class="mini-icon">⌁</span><span><strong>Think securely</strong><small>One skill at a time</small></span><span class="signal">●</span></div>
+                <div class="floating-card card-progress"><span class="progress-label">YOUR NEXT STEP</span><strong>Learn the fundamentals</strong><div class="progress-track"><span></span></div><small>Build a strong foundation</small></div>
+                <div class="visual-caption"><span class="status-dot"></span> LEARN · PRACTICE · GROW</div>
+            </div>
+        </section>
+
+        <section class="trust-strip" aria-label="Academy highlights">
+            <div><strong>6</strong><span>learning paths</span></div>
+            <div><strong>Beginner</strong><span>friendly lessons</span></div>
+            <div><strong>100%</strong><span>learn at your pace</span></div>
+            <div><strong>Ethical</strong><span>security first</span></div>
+        </section>
+
+        <section class="section-wrap courses-section" id="courses">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">CHOOSE YOUR DIRECTION</p>
+                    <h2>Find your learning path<span class="accent-dot">.</span></h2>
+                    <p class="section-intro">Start with the basics or explore a topic that sparks your curiosity.</p>
+                </div>
+                <a class="text-link" href="auth.html">Open your dashboard <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="course-filters" role="group" aria-label="Filter learning paths">
+                <button class="filter-chip active" type="button" data-filter="all" aria-pressed="true">All paths</button>
+                <button class="filter-chip" type="button" data-filter="foundation" aria-pressed="false">Foundations</button>
+                <button class="filter-chip" type="button" data-filter="security" aria-pressed="false">Security</button>
+                <button class="filter-chip" type="button" data-filter="practice" aria-pressed="false">Practical skills</button>
+            </div>
+            <div class="course-grid" id="courseGrid">
+                <article class="course-card" data-category="foundation">
+                    <div class="course-icon icon-blue">⌘</div><p class="course-kicker">FOUNDATION · 6 LESSONS</p>
+                    <h3>Networking Essentials</h3><p>Understand how devices communicate, and build the network knowledge every security learner needs.</p>
+                   <a href="auth.html" class="course-link">Start learning <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="course-card" data-category="foundation">
+                    <div class="course-icon icon-green">$_</div><p class="course-kicker">FOUNDATION · 5 LESSONS</p>
+                    <h3>Linux Fundamentals</h3><p>Get comfortable with the terminal, files, permissions, and everyday Linux concepts.</p>
+                    <a href="auth.html" class="course-link">Start learning <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="course-card" data-category="security">
+                    <div class="course-icon icon-purple">◇</div><p class="course-kicker">SECURITY · 7 LESSONS</p>
+                    <h3>Security Foundations</h3><p>Explore core security principles, common risks, and how to make safer decisions online.</p>
+                    <a href="auth.html" class="course-link">Start learning <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="course-card" data-category="security">
+                    <div class="course-icon icon-orange">◎</div><p class="course-kicker">SECURITY · 5 LESSONS</p>
+                    <h3>Web Safety Basics</h3><p>Learn how websites work and how to protect accounts, data, and applications responsibly.</p>
+                    <a href="auth.html" class="course-link">Start learning <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="course-card" data-category="practice">
+                    <div class="course-icon icon-pink">⌕</div><p class="course-kicker">PRACTICE · 4 LESSONS</p>
+                    <h3>Threat Awareness</h3><p>Recognize suspicious messages, understand social engineering, and practice safer habits.</p>
+                    <a href="auth.html" class="course-link">Start learning <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="course-card" data-category="practice">
+                    <div class="course-icon icon-teal">⌬</div><p class="course-kicker">PRACTICE · 5 LESSONS</p>
+                    <h3>Ethical Security Practice</h3><p>Learn the mindset, permissions, and safe lab boundaries behind responsible security work.</p>
+                    <a href="auth.html" class="course-link">Start learning <span aria-hidden="true">↗</span></a>
+                </article>
+            </div>
+            <p class="empty-filter" id="emptyFilter" hidden>No learning paths match this filter.</p>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="section-wrap about-grid">
+                <div class="about-visual">
+                    <div class="terminal-window">
+                        <div class="terminal-top"><span></span><span></span><span></span><small>learning_path.sh</small></div>
+                        <div class="terminal-content"><p><span class="terminal-green">learner@academy</span>:~$ begin</p><p class="terminal-muted">> foundations loaded</p><p class="terminal-muted">> practice mode: ethical</p><p class="terminal-highlight">> ready to grow <span class="cursor">▍</span></p></div>
+                    </div>
+                    <div class="about-sticker">CURIOUS<br>MINDS WELCOME <span>✳</span></div>
+                </div>
+                <div class="about-copy">
+                    <p class="eyebrow">MADE FOR THE WAY YOU LEARN</p>
+                    <h2>Less overwhelm.<br><span>More understanding.</span></h2>
+                    <p>Cybersecurity can feel like a lot to take in. We break big ideas into approachable lessons, so you can build confidence one concept at a time.</p>
+                    <div class="value-list">
+                        <div><span class="check-mark">✓</span><p><strong>Clear, guided steps</strong><br>Follow a simple path through each topic.</p></div>
+                        <div><span class="check-mark">✓</span><p><strong>Learn responsibly</strong><br>Practice only in systems and labs you are authorized to use.</p></div>
+                        <div><span class="check-mark">✓</span><p><strong>Your progress, your pace</strong><br>Pick up where you left off from your dashboard.</p></div>
+                    </div>
+                    <a class="button button-primary" href="auth.html">Create your free account <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-wrap faq-section" id="faq">
+            <div class="section-heading">
+                <div><p class="eyebrow">GOOD TO KNOW</p><h2>Frequently asked questions<span class="accent-dot">.</span></h2></div>
+            </div>
+            <div class="faq-list">
+                <details><summary>Do I need prior experience? <span>+</span></summary><p>No. The learning paths are designed to start with approachable fundamentals, and you can choose where to begin.</p></details>
+                <details><summary>Can I learn at my own pace? <span>+</span></summary><p>Yes. Lessons and progress are available from your dashboard on the same browser where you created your account.</p></details>
+                <details><summary>Is this a real authentication service? <span>+</span></summary><p>This website is a front-end learning demo. Accounts and progress are stored in this browser only. Do not use a real or reused password. A production service needs a secure backend and verified password-reset flow.</p></details>
+                <details><summary>Are the security lessons intended for real-world systems? <span>+</span></summary><p>Learning should stay ethical and authorized. Only practice on systems you own or have explicit permission to test, preferably in a dedicated training lab.</p></details>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="section-wrap contact-wrap">
+                <div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Your next chapter starts<br>with one small step.</h2><p>Make an account and start building your cybersecurity foundations.</p></div>
+                <a class="button button-light" href="auth.html">Start learning <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="section-wrap footer-main">
+            <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">⌑</span><span>CyberShield <strong>Academy</strong></span></a>
+            <p>Learn thoughtfully. Practice ethically.</p>
+            <div class="footer-links"><a href="#courses">Learning paths</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="auth.html">Sign in</a></div>
+        </div>
+        <div class="section-wrap footer-bottom"><span>© <span id="currentYear"></span> CyberShield Academy</span><span>Educational demo · Practice only with permission</span></div>
+    </footer>
+    <script src="script.js"></script><article class="course-card" data-category="foundation">
+    <div class="course-icon icon-blue">⌘</div><p class="course-kicker">FOUNDATION · 6 LESSONS</p>
+    <h3>Networking Essentials</h3><p>Understand how devices communicate, and build the network knowledge every security learner needs.</p>
+    <a href="networking.html" class="course-link">Start learning <span aria-hidden="true">↗</span></a>
+</article>
+
+</body>
+</html>
